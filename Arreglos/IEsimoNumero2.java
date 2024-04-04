@@ -36,6 +36,7 @@ public class IEsimoNumero2 {
         }
     }
 
+
     public static void main(String[] args) {
 
         int[] numeros = new int[10];
