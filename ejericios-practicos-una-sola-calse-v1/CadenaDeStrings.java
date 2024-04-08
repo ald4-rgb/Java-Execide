@@ -35,7 +35,7 @@ public class CadenaDeStrings {
             }
         }
         //retornamos el append
-        return sb.toString().trim();
+        return sb.toString();
     }
 
     public static void main(String[] args) {

@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ClaseMath" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LineaDeComandos" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Arreglos" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ClaseAbstracta" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
