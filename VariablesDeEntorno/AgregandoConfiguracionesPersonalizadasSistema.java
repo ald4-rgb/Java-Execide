@@ -24,12 +24,12 @@ import java.util.Properties;
 public class AgregandoConfiguracionesPersonalizadasSistema {
     public static void main(String[] args) {
 
-        //para ello tenemos que crear la isntancia de una clase FileInpuStream que se encarga de leer
+        //para ello tenemos que crear la instancia de una clase FileInpuStream que se encarga de leer
         //este archivo y obtiene el constenido pero en formato byte pero obitene los bytes de este archivo
         // y se lo pasamos al objeto properties a nuestro objeto properties del sistema en realidad
         //cargamos el archivo
         //FileInputStream : viene de flujo de datos por lo tanto a qui se procesan los bytes
-        //nos marca un error por que podria ocurrir que ese archivo no se encuentre no existe
+        //nos marca un error por que podria ocurrir ya que ese archivo no se encuentre no existe
         //entonces nos pide y nos obliga a manejar el
         try{
 
@@ -64,8 +64,15 @@ public class AgregandoConfiguracionesPersonalizadasSistema {
             //Exception se aplica para cualquiero objeto de expcepcion
         }catch(Exception e){
             //menaje de error controlado
+            //una atributo estatico
             System.out.println("El sistama no puedo encontrar el archivo"+e);
+            //otro método que podemos implementa es
+            //este funciona cuando sale todo bien es 0 y cuando sale mal es distinto de cero
+            //entonces con exit uno salimos del programa
 
+            System.exit(1);
+         //entonces si todo sale bien otra senencia otro algoritmo y continuar con un flujo
+            //pero si ocurre un error simplemente nos salimos
         }
 
 

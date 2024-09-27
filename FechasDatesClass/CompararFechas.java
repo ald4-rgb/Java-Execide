@@ -63,7 +63,15 @@ public class CompararFechas {
             }
 
         } catch (ParseException e) {
-            e.printStackTrace();
+            //e.printStackTrace(); //descomentar si funciona
+            //vamosa usar como ejemplo con la clase Systym
+            //usamos System.err.println("");
+            System.err.println("El formato de la fecha tiene un formato incorrecto"+e.getMessage());
+            System.err.println("El formato de la fecha tiene un formato incorrecto");
+            //tambien podemos usar System.exit
+            // System.exit(1); //descomentar si funciona solo con el status 1
+            //invocando de nuevo el main se vuelve a ejecutar
+            main(args);
 
         }
 

@@ -121,7 +121,7 @@ public class MetodosStrings {
         //¿Qué pasa si yo quiero quitar esos espacios? hay un método para eso el metodo trim()
         // etnonces con trim() quitamos espacios en blanco a la derecha y izquiera
         // este método es muy importante cuanod trabajamos con formularios por ejemplo app web también escritoroio
-        // cuando el usuario ingresa datos pero puede que ingrese malx
+        // cuando el usuario ingresa datos pero puede que ingrese mas
         System.out.println("  trabalenguas " );
         System.out.println("  trabalenguas ".trim() );
 
